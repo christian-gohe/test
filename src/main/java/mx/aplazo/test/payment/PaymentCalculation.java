@@ -20,6 +20,7 @@ import java.util.Objects;
 @Getter
 @Setter
 @Entity
+@ToString
 @Table(name = "payment_calculation")
 public class PaymentCalculation {
 
